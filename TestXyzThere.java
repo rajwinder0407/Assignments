@@ -3,7 +3,7 @@
 */
 public class TestXyzThere {
     public static boolean xyzThere(String str) {
-        String s=new String();
+        String s;
         for(int i=0;i<str.length()-2;i++){
             s=str.substring(i,i+3);
             if(s.startsWith(".")){
@@ -20,6 +20,6 @@ String str1="chcgggghdsjxyz";
 if(xyzThere(str1))
     System.out.println("the string contains xyz");
 else
-    System.out.println("the string doesnot contain xyz");
+    System.out.println("the string doesn't contain xyz");
 }
 }
