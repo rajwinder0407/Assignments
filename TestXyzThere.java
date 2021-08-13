@@ -16,7 +16,7 @@ public class TestXyzThere {
         return false;
     }
 public static void main(String [] args){
-String str1="chchdsjxyz";
+String str1="chcgggghdsjxyz";
 if(xyzThere(str1))
     System.out.println("the string contains xyz");
 else
